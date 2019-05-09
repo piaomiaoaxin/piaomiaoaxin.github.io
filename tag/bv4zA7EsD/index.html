@@ -3,21 +3,15 @@
   <head>
     <meta charset="utf-8" >
 
-<title>first blog by Gridea | 李恩恩</title>
+<title>随手记 | 李恩恩</title>
 <meta name="description" content="愿你归来，仍是少年~">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://piaomiaoaxin.github.io/favicon.ico?v=1557408272168">
+<link rel="shortcut icon" href="https://piaomiaoaxin.github.io/favicon.ico?v=1557410671675">
 <link rel="stylesheet" href="https://piaomiaoaxin.github.io/styles/main.css">
 
-
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
-
-  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -35,7 +29,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://piaomiaoaxin.github.io">
-        <img src="https://piaomiaoaxin.github.io/images/avatar.png?v=1557408272168" class="site-logo">
+        <img src="https://piaomiaoaxin.github.io/images/avatar.png?v=1557410671675" class="site-logo">
         <h1 class="site-title">李恩恩</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -96,46 +90,33 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">first blog by Gridea</h2>
-            <div class="post-date">2019-04-22</div>
-            
-              <div class="feature-container" style="background-image: url('https://piaomiaoaxin.github.io/post-images/first-blog-by-gridea.jpg')">
-              </div>
-            
-            <div class="post-content">
-              <p>this is the first blog</p>
-
-            </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://piaomiaoaxin.github.io/tag/gridea" class="tag">
-                    Gridea
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://piaomiaoaxin.github.io/post/hello-gridea">
-                  <h3 class="post-title">
-                    Hello Gridea
-                  </h3>
+          <h2 class="current-tag">标签: 随手记</h2>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://piaomiaoaxin.github.io/post/wu-yue-pang-wan">
+                  <h2 class="post-title">五月旁晚</h2>
                 </a>
+                <div class="post-date">
+                  2019-05-09
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
               </div>
-            
-
-            
               
-                <div id="gitalk-container" data-aos="fade-in"></div>
+                <a class="right" href="https://piaomiaoaxin.github.io/post/wu-yue-pang-wan">
+                  <div class="feature-container" style="background-image: url('https://piaomiaoaxin.github.io/post-images/wu-yue-pang-wan.jpg')">
+                  </div>
+                </a>
               
+            </article>
+          
 
-              
-            
-
-          </div>
+          <div class="pagination-container">
+  
+  
+</div>
 
         </div>
       </div>
@@ -157,29 +138,6 @@ var app = new Vue({
 })
 
 </script>
-
-
-  
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
-
-      var gitalk = new Gitalk({
-        clientID: '5d225d95de989e8a13da',
-        clientSecret: 'e987989cdfd6ddc859628787d58ce798a7faa663',
-        repo: 'piaomiaoaxin.github.io',
-        owner: 'piaomiaoaxin',
-        admin: ['piaomiaoaxin'],
-        id: location.pathname,      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
-
-      gitalk.render('gitalk-container')
-
-    </script>
-  
-
-  
 
 
 
